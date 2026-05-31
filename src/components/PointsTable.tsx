@@ -46,7 +46,18 @@ export const PointsTable: React.FC<{ onClose: () => void }> = ({ onClose }) => (
         <X size={16} />
       </button>
 
-      <h2 style={{ marginBottom: '0.25rem', textAlign: 'center', fontSize: '1.75rem', color: '#38bdf8', fontWeight: 900 }}>Winning Hands</h2>
+      <h2 style={{ marginBottom: '0.25rem', textAlign: 'center', fontSize: '1.75rem', color: '#38bdf8', fontWeight: 900 }}>How to Play</h2>
+      
+      <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '1rem', padding: '1rem', marginBottom: '1.5rem', fontSize: '0.85rem', lineHeight: 1.5 }}>
+        <ul style={{ paddingLeft: '1.25rem', margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem', color: 'var(--text-primary)' }}>
+          <li><strong>Place Cards:</strong> Click a card in your hand, then click an empty grid slot. (Desktop: Use keys <strong>1-5</strong>).</li>
+          <li><strong>Undo:</strong> Click the Undo arrow to return the last placed card to your hand.</li>
+          <li><strong>Confirm:</strong> When all cards are placed, hit <strong>Confirm Turn</strong>. One remaining card is discarded and a new hand is drawn.</li>
+          <li><strong>Score:</strong> Build the best poker hands across <strong>rows, columns, and the 4 corners</strong>!</li>
+        </ul>
+      </div>
+
+      <h2 style={{ marginBottom: '0.25rem', textAlign: 'center', fontSize: '1.5rem', color: '#38bdf8', fontWeight: 800 }}>Winning Hands</h2>
       <p style={{ textAlign: 'center', color: 'var(--text-secondary)', fontSize: '0.75rem', marginBottom: '1.25rem' }}>Rows, columns, and corners all score!</p>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
