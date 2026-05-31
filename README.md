@@ -45,11 +45,7 @@ To run the game locally:
 ## How to Play
 
 ### The Grid
-You are dealt a hand of cards. Your goal is to place them on the grid to form the best possible 5-card poker hands across **Rows**, **Columns**, and the **Four Corners**. 
-
-<p align="center">
-  <img src="public/gameplay.png" width="600" alt="Gameplay Screen" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
-</p>
+You are dealt a hand of cards. Your goal is to place them on the grid to form the best possible 5-card poker hands across **Rows**, **Columns**, and the **Four Corners**.
 
 - **Place Cards:** Click or tap a card in your hand, then click an empty slot on the grid. (Desktop users can press `1-5` to select cards quickly).
 - **Undo:** Made a mistake? Click the undo arrow to return the last placed card to your hand.
@@ -57,10 +53,6 @@ You are dealt a hand of cards. Your goal is to place them on the grid to form th
 
 ### Scoring
 The game evaluates all lines at the end. Royal Flushes, Straight Flushes, and Four of a Kinds yield massive points!
-
-<p align="center">
-  <img src="public/scoring.png" width="600" alt="Scoring Screen" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
-</p>
 
 | Hand | Points | Rarity |
 | :--- | :--- | :--- |
