@@ -42,12 +42,37 @@ To run the game locally:
    npm run dev
    ```
 
-## Playing the Game
+## How to Play
 
-- **Place Cards:** Click or tap a card in your hand, then click an empty slot on the grid.
+### The Grid
+You are dealt a hand of cards. Your goal is to place them on the grid to form the best possible 5-card poker hands across **Rows**, **Columns**, and the **Four Corners**. 
+
+<p align="center">
+  <img src="public/gameplay.png" width="600" alt="Gameplay Screen" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
+</p>
+
+- **Place Cards:** Click or tap a card in your hand, then click an empty slot on the grid. (Desktop users can press `1-5` to select cards quickly).
 - **Undo:** Made a mistake? Click the undo arrow to return the last placed card to your hand.
-- **Confirm Turn:** Once you place the required number of cards, confirm your turn. The first remaining card in your hand will be discarded, and you will draw a fresh set.
-- **Score Big:** The game evaluates hands at the end. Royal Flushes, Straight Flushes, and Four of a Kinds yield massive points.
+- **Confirm Turn:** Once you place the required number of cards, confirm your turn. The remaining card in your hand will be discarded, and you will draw a fresh set.
+
+### Scoring
+The game evaluates all lines at the end. Royal Flushes, Straight Flushes, and Four of a Kinds yield massive points!
+
+<p align="center">
+  <img src="public/scoring.png" width="600" alt="Scoring Screen" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
+</p>
+
+| Hand | Points | Rarity |
+| :--- | :--- | :--- |
+| **Royal Flush** | 100 | 🟡 Legendary |
+| **Straight Flush** | 75 | 🟡 Legendary |
+| **Four of a Kind** | 50 | 🟣 Epic |
+| **Full House** | 25 | 🟣 Epic |
+| **Flush** | 20 | 🔵 Rare |
+| **Straight** | 15 | 🔵 Rare |
+| **Three of a Kind**| 10 | 🟢 Uncommon |
+| **Two Pair** | 5 | 🟢 Uncommon |
+| **Pair** | 2 | ⚪ Common |
 
 ## License
 
