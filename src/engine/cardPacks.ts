@@ -53,12 +53,7 @@ export const CARD_PACKS: Record<CardPackType, CardPack> = {
     cardRatio: 1.4,
     getCardImagePath: (card: Card) => {
       const suitName = capitalize(card.suit);
-      let rankName = card.rank as string;
-      if (rankName === 'A') rankName = 'Ace';
-      else if (rankName === 'J') rankName = 'Jack';
-      else if (rankName === 'Q') rankName = 'Queen';
-      else if (rankName === 'K') rankName = 'King';
-      return `/assets/cardpacks/CARDPACK5/${suitName}/CleanCards/${rankName}.png`;
+      return `/assets/cardpacks/CARDPACK5/${suitName}/CleanCards/${suitName}_${card.rank}.png`;
     },
   },
   CARDPACK6: {
