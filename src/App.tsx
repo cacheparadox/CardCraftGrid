@@ -44,7 +44,7 @@ const computeSlotPx = (n: number): number => {
 const App: React.FC = () => {
   const [gameState, setGameState] = useState<GameState | null>(null);
   const [selectedPack, setSelectedPack] = useState<CardPackType>(() =>
-    (localStorage.getItem('lykepokeher_pack') as CardPackType | null) || 'CARDPACK2'
+    (localStorage.getItem('lykepokeher_pack') as CardPackType | null) || 'CARDPACK5'
   );
   
   // Modals
