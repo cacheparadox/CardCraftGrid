@@ -15,7 +15,7 @@ const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1).toLower
 export const CARD_PACKS: Record<CardPackType, CardPack> = {
   CARDPACK3: {
     id: 'CARDPACK3',
-    name: 'Retro Pixel',
+    name: '8-Bit Arcade',
     description: 'Pixel art style for a retro feel.',
     cardRatio: 1.4,
     getCardImagePath: (card: Card) => {
@@ -24,7 +24,7 @@ export const CARD_PACKS: Record<CardPackType, CardPack> = {
   },
   CARDPACK4: {
     id: 'CARDPACK4',
-    name: 'Sleek Dark',
+    name: 'Obsidian Dark',
     description: 'Elegant dark-themed cards.',
     cardRatio: 1.4,
     getCardImagePath: (card: Card) => {
@@ -33,7 +33,7 @@ export const CARD_PACKS: Record<CardPackType, CardPack> = {
   },
   CARDPACK5: {
     id: 'CARDPACK5',
-    name: 'Vintage Classic',
+    name: 'Rustic Tavern',
     description: 'High-resolution vintage playing cards.',
     cardRatio: 1.4,
     getCardImagePath: (card: Card) => {
@@ -48,7 +48,7 @@ export const CARD_PACKS: Record<CardPackType, CardPack> = {
   },
   CARDPACK5_CLEAN: {
     id: 'CARDPACK5_CLEAN',
-    name: 'Vintage Clean',
+    name: 'Restored Antique',
     description: 'A clean, restored version of the vintage cards.',
     cardRatio: 1.4,
     getCardImagePath: (card: Card) => {
@@ -58,7 +58,7 @@ export const CARD_PACKS: Record<CardPackType, CardPack> = {
   },
   CARDPACK6: {
     id: 'CARDPACK6',
-    name: 'Mystic Tarot',
+    name: 'Arcane Tarot',
     description: 'A beautifully painted mystic tarot deck.',
     cardRatio: 1.7, // Tarot cards are typically taller
     getCardImagePath: (card: Card) => {
@@ -74,7 +74,7 @@ export const CARD_PACKS: Record<CardPackType, CardPack> = {
   },
   CARDPACK7: {
     id: 'CARDPACK7',
-    name: 'Clean Vector',
+    name: 'Aero Glass',
     description: 'Modern, crisp vector playing cards.',
     cardRatio: 1.4,
     getCardImagePath: (card: Card) => {
