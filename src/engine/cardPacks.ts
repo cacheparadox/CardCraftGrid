@@ -46,6 +46,21 @@ export const CARD_PACKS: Record<CardPackType, CardPack> = {
       return `/assets/cardpacks/CARDPACK5/${suitName}/${rankName}.png`;
     },
   },
+  CARDPACK5_CLEAN: {
+    id: 'CARDPACK5_CLEAN',
+    name: 'Vintage Clean',
+    description: 'A clean, restored version of the vintage cards.',
+    cardRatio: 1.4,
+    getCardImagePath: (card: Card) => {
+      const suitName = capitalize(card.suit);
+      let rankName = card.rank as string;
+      if (rankName === 'A') rankName = 'Ace';
+      else if (rankName === 'J') rankName = 'Jack';
+      else if (rankName === 'Q') rankName = 'Queen';
+      else if (rankName === 'K') rankName = 'King';
+      return `/assets/cardpacks/CARDPACK5/${suitName}/CleanCards/${rankName}.png`;
+    },
+  },
   CARDPACK6: {
     id: 'CARDPACK6',
     name: 'Mystic Tarot',

@@ -376,7 +376,7 @@ const App: React.FC = () => {
           <div className="card-pack-selector">
             {(Object.keys(CARD_PACKS) as CardPackType[]).map(packId => (
               <div key={packId} className={`pack-card ${selectedPack === packId ? 'selected' : ''}`} onClick={() => { setSelectedPack(packId); localStorage.setItem('lykepokeher_pack', packId); }}>
-                <img src={CARD_PACKS[packId].getCardImagePath({ id: 'p', suit: 'hearts', rank: 'A' })} alt={packId} style={{ height: '55px', marginBottom: '0.4rem', imageRendering: 'pixelated' }} />
+                <img src={CARD_PACKS[packId].getCardImagePath({ id: 'p', suit: 'spades', rank: 'A' })} alt={packId} style={{ height: '55px', marginBottom: '0.4rem', imageRendering: 'pixelated' }} />
                 <div style={{ fontSize: '0.75rem', fontWeight: 700 }}>{CARD_PACKS[packId].name}</div>
               </div>
             ))}

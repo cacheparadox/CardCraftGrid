@@ -25,7 +25,7 @@ export interface GameState {
   history: any[];
 }
 
-export type CardPackType = 'CARDPACK3' | 'CARDPACK4' | 'CARDPACK5' | 'CARDPACK6' | 'CARDPACK7';
+export type CardPackType = 'CARDPACK3' | 'CARDPACK4' | 'CARDPACK5' | 'CARDPACK5_CLEAN' | 'CARDPACK6' | 'CARDPACK7';
 
 export interface CardPack {
   id: CardPackType;
