@@ -64,15 +64,16 @@ The game evaluates all lines at the end. Royal Flushes, Straight Flushes, and Fo
 
 | Hand | Points | Rarity |
 | :--- | :--- | :--- |
-| **Royal Flush** | 100 | 🟡 Legendary |
-| **Straight Flush** | 75 | 🟡 Legendary |
-| **Four of a Kind** | 50 | 🟣 Epic |
-| **Full House** | 25 | 🟣 Epic |
-| **Flush** | 20 | 🔵 Rare |
-| **Straight** | 15 | 🔵 Rare |
-| **Three of a Kind**| 10 | 🟢 Uncommon |
-| **Two Pair** | 5 | 🟢 Uncommon |
-| **Pair** | 2 | ⚪ Common |
+| **Royal Flush** | 500 | 🟡 Legendary |
+| **Straight Flush** | 250 | 🟡 Legendary |
+| **Four of a Kind** | 150 | 🟣 Epic |
+| **Full House** | 100 | 🟣 Epic |
+| **Flush** | 75 | 🔵 Rare |
+| **Straight** | 50 | 🔵 Rare |
+| **Three of a Kind**| 25 | 🟢 Uncommon |
+| **Two Pair** | 15 | 🟢 Uncommon |
+| **Pair** | 5 | ⚪ Common |
+| **Corner Bonus** | ×1 | 🟠 Bonus |
 
 ## License
 
